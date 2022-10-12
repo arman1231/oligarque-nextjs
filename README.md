@@ -1,2 +1,0 @@
-# oligarque-nextjs
-NextJS Project
