@@ -1,0 +1,109 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__image {
+    padding: 13px 0 29px 0;
+}
+
+.description {
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 800px;
+    position: relative;
+}
+
+.description::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../public/images/quote-icon.svg);
+}
+
+.description::after {
+    content: '';
+    transform: rotate(180deg);
+    position: absolute;
+    top: 9px;
+    right: 85px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../public/images/quote-icon.svg);
+}
+
+.gallery {
+    padding: 50px 0 50px 0;
+    display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.gallery__image {
+    width: 300px;
+    height: 300px;
+    
+}
+.gallery__image span {
+    border-radius: 5px 5px 0px 0px;
+}
+.gallery__itemContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.gallery__itemTitle {
+    font-family: "BigShot";
+    margin: 23px 0 23px 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: black;
+}
+
+.gallery__list {
+    color: white;
+    list-style: none;
+}
+
+.gallery__listItem {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.gallery__listItem:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.page_stokistContent {
+    color: white;
+    background-color: black;
+}
+
+.page_stokistHeading {
+    border: 1px dotted white;
+    padding: 15px;
+    color: white;
+}
+
+.gallery__listItem a {
+    color: white;
+}

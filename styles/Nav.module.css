@@ -1,0 +1,17 @@
+.header__links {
+    margin: 50px 0 42px 0;
+    list-style: none;
+    display: flex;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 18px;
+}
+
+.header__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
