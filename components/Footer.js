@@ -4,7 +4,7 @@ export default function Footer() {
     
   return (
     <footer className={styles.footer}>
-      <p class="footer__author">© 2022. Oligarque Paris</p>
+      <p>© 2022. Oligarque Paris</p>
     </footer>
   );
 }

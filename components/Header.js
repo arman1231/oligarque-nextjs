@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return <header className={styles.header}>
-    <Link href='/'><Image style={{'cursor':'pointer'}} src='/images/logo.svg' width={256} height={50} alt='logo' /></Link>
+    <Link href='/'><a><Image style={{'cursor':'pointer'}} src='/images/logo.svg' width={256} height={50} alt='logo' /></a></Link>
     <Nav />
   </header>;
 }
