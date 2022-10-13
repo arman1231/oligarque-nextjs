@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Bhavuka';
+  font-weight: 400;
+  font-display: swap;
+  src: url("Bhavuka-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'BigShot';
+  src: url('BigshotOne-Regular.woff') format("woff");
+}
