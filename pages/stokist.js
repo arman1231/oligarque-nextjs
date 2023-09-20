@@ -72,6 +72,36 @@ export default function Stokist() {
             </li>
           </ul>
         </div>
+        <div className={styles.gallery__item}>
+          <div
+            className={`${styles.gallery__itemContent} ${styles.page_stokistContent}`}
+          >
+            <h2
+              className={`${styles.gallery__itemTitle} ${styles.page_stokistHeading}`}
+            >
+              Krystal Fragrance
+            </h2>
+          </div>
+          <ul className={styles.gallery__list}>
+            <li className={styles.gallery__listItem}>
+              <b>Website:</b>{" "}
+              <a
+                href="https://krystalfragrance.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://krystalfragrance.com
+              </a>
+            </li>
+            <li className={styles.gallery__listItem}>
+              <b>Email:</b>{" "}
+              <a href="mailto:info@krystalfragrance.com">info@krystalfragrance.com</a>
+            </li>
+            <li className={styles.gallery__listItem}>
+              <b>Phone:</b> +1 (406) 407-3797
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   );
